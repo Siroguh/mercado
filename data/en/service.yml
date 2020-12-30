@@ -1,0 +1,24 @@
+################################# Service #################################
+service:
+  enable : true
+  title : Nuestros Servicios
+  service_item :
+    # service item loop
+    - name : Recogida en tienda
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Preparamos pedidos personalizados, llámanos y tu encargo estará listo el día que elijas.
+
+    # service item loop
+    - name : Servicio a domicilio
+      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      content : Consulta nuestros productos en la plataforma <<Mizesta>>, ellos te lo llevarán a casa en menos de 24hr.
+
+    # service item loop
+    - name : Distribución HORECA
+      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : Trabajamos con bares y restaurantes de toda Zaragoza  y pueblos de toda la comarca.
+
+    # service item loop
+    - name : Catering y eventos
+      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
+      content : Personalizamos bandejas, platos o cualquier pedido para tus eventos y celebraciones.

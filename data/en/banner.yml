@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Tu charcutería de confianza"
+  content : "Desde 1967. Trabajamos con los mejores productos
+nacionales y de importación. Elaboramos nuestros jamones de manera tradicional
+					en nuestro secadero natural."
+  button:
+    enable : true
+    label : "Descúbrenos"
+    link : "#services"
