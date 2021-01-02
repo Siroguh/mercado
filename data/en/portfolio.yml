@@ -1,76 +1,144 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Destacados de la Semana
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio1.jpg
+    - name : Queso régimen
+      image : images/what/1.jpeg
+      categories : ["Quesos"]
+      content : 11.55€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Queso Masdaam
+      image : images/what/2.jpg
       image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
-
-    # portfolio item loop
-    - name : Sound system
-      image : images/portfolio2.png
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
-
-    # portfolio item loopº
-    - name : Clock Product
-      image : images/portfolio1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["Quesos"]
+      content :
       link : "#"
-
     # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio2.png
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    - name : Queso Peña Amaya
+      image : images/what/3.jpg
+      categories : ["Quesos"]
+      content : 16.50€ / Kg
       link : "#"
-
     # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    - name : Queso Torre Campos Oveja
+      image : images/what/4.jpg
+      categories : ["Quesos"]
+      content : 14.85€ / Kg
       link : "#"
-
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio2.png
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    - name : Queso Portillo
+      image : images/what/5.jpg
+      categories : ["Quesos"]
+      content : 9.35€ / Kg
       link : "#"
-
     # portfolio item loop
-    - name : Business Card
-      image : images/portfolio1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    - name : Queso Rulo de Cabra
+      image : images/what/6.jpg
+      categories : ["Quesos"]
+      content : 12.10€ / Kg
       link : "#"
-
     # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio2.png
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    - name : Jamón Duroc Entero
+      image : images/what/o1.jpg
+      categories : ["Curados"]
+      content : 8.40€ / Kg
       link : "#"
-
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    - name : Jamón Villarroya Entero
+      image : images/what/o2.jpg
+      categories : ["Curados"]
+      content : 7.40€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Contra Entera Oferta
+      image : images/what/o3.jpg
+      categories : ["Curados"]
+      content : 11.22€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Media Punta
+      image : images/what/o4.jpg
+      categories : ["Curados"]
+      content : 11.55€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Panceta Curada Villarroya
+      image : images/what/o5.jpg
+      categories : ["Curados"]
+      content : 8.80€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Lomo Embuchado
+      image : images/what/o6.jpg
+      categories : ["Curados"]
+      content : 14.52€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Chorizo de Pavo
+      image : images/what/e1.jpg
+      categories : ["Embutidos"]
+      content : 11€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Chistorra
+      image : images/what/e2.jpg
+      categories : ["Embutidos"]
+      content : 2.75€ / Unidad
+      link : "#"
+    # portfolio item loop
+    - name : Chorizo Zamorano Paulino Iglesias
+      image : images/what/e3.jpg
+      categories : ["Embutidos"]
+      content : 14.30€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Salami Finas Hierbas
+      image : images/what/e4.jpg
+      categories : ["Embutidos"]
+      content : 9.35€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Morcilla Monrealense Aragón
+      image : images/what/e5.jpg
+      categories : ["Embutidos"]
+      content : 7.70€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Chorizo de Lomo (Vela)
+      image : images/what/e6.jpg
+      categories : ["Embutidos"]
+      content : 9.85€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Beicon Sant-Dalmai
+      image : images/what/y1.jpg
+      categories : ["Aves y Cocidos"]
+      content : 6.50€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Choped De Pavo
+      image : images/what/y2.jpg
+      categories : ["Aves y Cocidos"]
+      content : 7.15€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Jamón de Praga
+      image : images/what/y3.jpg
+      categories : ["Aves y Cocidos"]
+      content : 10.45€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Pechuga de Pavo
+      image : images/what/y5.jpg
+      categories : ["Aves y Cocidos"]
+      content : 8.80€ / Kg
+      link : "#"
+    # portfolio item loop
+    - name : Pollo Relleno
+      image : images/what/y6.jpg
+      categories : ["Aves y Cocidos"]
+      content : 11.55€ / Kg
       link : "#"

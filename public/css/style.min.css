@@ -98,7 +98,15 @@ a:hover {
   padding-right: 1.5vw;
 }
 
-.navbar-brand-center {height: 150px;display: flex;flex-wrap: nowrap;align-items: center;justify-content: center;box-sizing: border-box;  flex-grow: 1; margin-right: 0;}
+.navbar-brand-center {
+  height: 150px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: 0;
+}
   .navbar-brand-center img {
     height:80%; padding-left: 20px; padding-right: 20px;}
     .navbar-brand-center h3 {
@@ -113,8 +121,10 @@ a:hover {
         }
       }
       @media (max-width: 1350px) {
+
         .navbar-brand-center img {
           height:60%;}
+
           .navbar-collapse > ul > div > li{
             padding-left: 1vw;
             padding-right: 1vw;
@@ -129,8 +139,9 @@ a:hover {
 
 .nav-link {
   color: #000;
-  font-weight: 1000;
-} .nav-link:hover{text-decoration: underline;}
+  font-weight: bold;
+}
+.nav-link:hover{text-decoration: underline;}
 
 
 #navbar-header {
@@ -139,7 +150,6 @@ a:hover {
   align-items: center;
   justify-content: space-around;
   margin-top: 0;
-
   background: #f4ede5;
   }
   #navbar-header .navbar-nav .dropdown-menu {
@@ -185,7 +195,7 @@ a:hover {
     margin: 0 auto;}
     .navbar-brand-center{
       height: 100%;
-      display: flex;º
+      display: flex;
     }
     #navbarSupportedContent{
       display: none;
@@ -211,9 +221,6 @@ a:hover {
   border-radius: 30px;
   padding: 9px 25px;
   text-transform: capitalize;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   .btn-primary:hover {
     background-color: #e22104;
@@ -224,7 +231,7 @@ a:hover {
   box-shadow: -5px 8px 20px 0px rgba(229, 16, 2, 0.15); }
 
 .btn-icon {
-  color: #000; }et consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+  color: #000; }
 
 .hero {
   height: 600px;
@@ -236,12 +243,15 @@ a:hover {
 
 .hero-info {
   padding-top: 60px; }
+
   @media (min-width: 1420px) {
     .hero-info {
       padding-top: 140px; } }
+
   .hero-info li {
     padding-right: 15px;
     padding-left: 15px; }
+
   .hero-info .lnr {
     display: block;
     font-size: 32px;
@@ -279,7 +289,6 @@ a:hover {
   width: 100%;
   margin: 0 auto;
   margin-bottom: 10px;
-  box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease; }
 
 .heading-section {
@@ -397,17 +406,6 @@ a:hover {
   position: relative;
   z-index: 1; }
 
-
-/*======================================
-=            Special Dishes            =
-======================================*/
-
-
-  .footer-logo {
-    height: 50px;}
-
-
-/*=====  End of Special Dishes  ======*/
 /*==================================
 =            RESPONSIVE            =
 ==================================*/
@@ -488,7 +486,9 @@ a:hover {
   max-width: 700px;
   margin: 0 auto;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 50px;                    <li class="nav-item dropdown">
+                              <a class="nav-link" href="{{ .Site.BaseURL }}#gtco-menu">Contacta</a>
+                        </li>
 } .hero-area .block h1{
   padding-left: 20px;
   padding-right: 20px;
@@ -504,7 +504,7 @@ a:hover {
 }
 
 .hero-area .block .video-button i {
-  line-height: 60px;s
+  line-height: 60px;
   font-size: 20px;
   margin-left: 3px;
 }
@@ -527,7 +527,7 @@ a:hover {
     font-size: 9vw;
   }
   .hero-area .block p{
-    padding-left: 10px;º
+    padding-left: 10px;
     padding-right: 10px;
   }
 }
@@ -587,28 +587,6 @@ a:hover {
   z-index: -1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Lo que esta de nuevo */
 
 #services{
@@ -659,6 +637,14 @@ a:hover {
   box-shadow: 15px 15px 0 rgba(244, 237, 229,1);
 }
 
+.thumb-menu img{
+  box-shadow: 0;
+}
+.whatever1{
+  font-size: 1.15rem;
+  text-align: justify;
+}
+
 
 #gtco-testimonial{
   box-shadow: 10px 0 0 rgba(100,100,100,.2);
@@ -707,19 +693,6 @@ a:hover {
 .dishes-text {
   padding-left: 90px; }
 
-
-
-
-
-.mastfoot{
-  box-shadow: 10px 0 0 rgba(100,100,100,.2);
-  background: rgba(255, 249, 249,1);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-
-
 .section-content .row{
   justify-content: center;
 }
@@ -727,6 +700,12 @@ a:hover {
 #portfolio{
   padding-bottom: 100px;
 }
+@media (max-width: 1200px) {
+  #portfolio{
+    display: none;
+  }
+}
+
 
 .portfolio-filter {
   margin-bottom: 40px;
@@ -826,4 +805,78 @@ a:hover {
 .mastfoot .row{
   display: flex;
   justify-content: center;
+}
+.mastfoot{
+  box-shadow: 10px 0 0 rgba(100,100,100,.2);
+  background: rgba(255, 249, 249,1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 50px;
+}
+.mastfoot .row .col-lg-4:first-child{
+  border-right: 5px solid #f4ede5;
+}
+.mastfoot .row .col-lg-4:first-child p{
+  padding-top: 20px;
+  border-bottom: 0;
+  text-align: justify;
+}
+.mastfoot .row .col-lg-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .mastfoot .row .col-lg-4:first-child{
+    border-right: 0;
+    padding: 0;
+  }
+  .mastfoot .row .col-lg-4:first-child p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.footer-widget{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-widget h3{
+  padding: 30px;
+  text-align: center;
+}
+
+  .footer-logo{
+    height: 150px;
+    justify-content: center;
+    align-items: center;}
+
+
+    .mastfoot .row .col-md-12{
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+    .mastfoot .row .col-md-12 p{
+      background: rgba(244, 237, 229, .4);
+      padding: 15px;
+    }
+.open-hours span{
+  padding-right: 20px;
+}
+.pl-lg-5, .px-lg-5 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+
+
+
+.heading-section h1{
+    font-size: 60px;
+}
+
+.textito {
+  text-align: justify;
 }

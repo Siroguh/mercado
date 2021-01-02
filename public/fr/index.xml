@@ -5,7 +5,7 @@
     <link>http://example.com/fr/</link>
     <description>Recent content on Resto Hugo - Port of resto theme for hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
-    <copyright>Copyright &amp;copy; 2020 Designed by [Themefisher](https://themefisher.com) &amp; Developed by [Gethugothemes](https://gethugothemes.com)</copyright><atom:link href="http://example.com/fr/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>&amp;copy 2020 Jamones Villarroya S.L.</copyright><atom:link href="http://example.com/fr/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
